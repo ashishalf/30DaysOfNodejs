@@ -1,0 +1,56 @@
+# Ignore node_modules directory
+node_modules/
+
+# Ignore log files and database files
+*.log
+*.sql
+*.sqlite
+
+# Ignore environment files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Ignore build directories and files
+build/
+dist/
+out/
+coverage/
+*.lock
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore editor-specific files
+.vscode/
+.idea/
+*.swp
+
+# Ignore compiled files
+*.class
+*.o
+*.so
+
+# Ignore dependency directories
+vendor/
+Pods/
+
+# Ignore generated files and directories
+coverage/
+*.generated.*
+
+# Ignore temporary files
+*.tmp
+*.temp
+*.bak
+~$*
+
+# Ignore all files in a specific directory, but not the directory itself
+example-dir/*
+!example-dir/.keep
+
+# Ignore specific files in root directory
+/root-directory-file.ext
